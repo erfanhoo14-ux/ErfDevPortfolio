@@ -7,7 +7,7 @@
             'a11y.skip': 'Skip to work',
             'nav.work': 'Work', 'nav.svc': 'Services', 'nav.log': 'Log', 'nav.about': 'About',
             'nav.avail': 'open for work', 'nav.talk': "Let's talk",
-            'hero.kicker': 'Portfolio 2026 — Tehran, Iran',
+            'hero.kicker': 'Portfolio 2026 — Mashad, Iran',
             'hero.h': 'Horror games that <em>listen.</em><br>Websites that <em>breathe.</em>',
             'hero.sub': 'I&rsquo;m Erfan — indie horror developer working in Unreal Engine 5, and a web designer making fast bilingual sites: landing pages, portfolios, small shops. This page is both my resume and my sample — designed and coded by hand.',
             'hero.cta1': 'See the work ↓', 'hero.cta2': 'I need a website →',
