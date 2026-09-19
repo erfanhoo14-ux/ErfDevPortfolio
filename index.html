@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erfan Hassanpur — Horror games & websites</title>
+    <meta name="description" content="Erfan Hassanpur from Tehran: indie horror game developer (UE5) and bilingual web designer. Work, services, build log, contact.">
+    <meta property="og:title" content="Erfan Hassanpur — Horror games & websites">
+    <meta property="og:description" content="Sound-driven horror in UE5, plus fast bilingual websites. Designed and hand-coded by me.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23F3EEE5'/><text x='16' y='23' font-size='20' text-anchor='middle' fill='%23FF4B1E' font-family='Georgia'>E</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,560;0,9..144,700;1,9..144,400;1,9..144,560&family=Space+Grotesk:wght@400;500;600;700&family=Vazirmatn:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+    <a class="skip" href="#work" data-i18n="a11y.skip">Skip to work</a>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+
+    <header class="head">
+        <div class="head-in">
+            <a href="#top" class="brand">erfan<span class="brand-dot">®</span></a>
+            <nav class="head-nav" aria-label="Primary">
+                <a href="#work" data-i18n="nav.work">Work</a>
+                <a href="#services" data-i18n="nav.svc">Services</a>
+                <a href="#log" data-i18n="nav.log">Log</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+            </nav>
+            <div class="head-side">
+                <span class="avail"><i></i><span data-i18n="nav.avail">open for work</span></span>
+                <a class="talk" href="#contact" data-i18n="nav.talk">Let's talk</a>
+                <button class="lang" id="langToggle" aria-label="Switch language / تغییر زبان"><span id="langLabel">فا</span></button>
+                <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="mobileNav">
+                    <span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
+            <a href="#work" data-i18n="nav.work">Work</a>
+            <a href="#services" data-i18n="nav.svc">Services</a>
+            <a href="#log" data-i18n="nav.log">Log</a>
+            <a href="#about" data-i18n="nav.about">About</a>
+            <a href="#contact" data-i18n="nav.talk">Let's talk</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero" id="hero">
+            <div class="hero-grid">
+                <div>
+                    <p class="kicker rv"><span data-i18n="hero.kicker">Mashhad, Iran</span><span class="clock" id="clock" title="Tehran time"></span></p>
+                    <h1 class="hero-h rv" data-i18n="hero.h">Horror games that <em>listen.</em><br>Websites that <em>breathe.</em></h1>
+                    <p class="hero-sub rv" data-i18n="hero.sub">I'm Erfan — indie horror developer working in Unreal Engine 5, and a web designer making fast bilingual sites: landing pages, portfolios, small shops. This page is both my resume and my sample — designed and coded by hand.</p>
+                    <div class="hero-links rv">
+                        <a href="#work" class="btn solid" data-i18n="hero.cta1">See the work ↓</a>
+                        <a href="mailto:erfanhoo14@gmail.com?subject=Website%20project" class="btn line" data-i18n="hero.cta2">I need a website →</a>
+                    </div>
+                    <dl class="hero-meta rv">
+                        <div>
+                            <dt data-i18n="hero.now">Now</dt>
+                            <dd data-i18n="hero.nowV">Horror prototype in UE5</dd>
+                        </div>
+                        <div>
+                            <dt data-i18n="hero.open">Booking</dt>
+                            <dd data-i18n="hero.openV">Websites + gameplay freelance</dd>
+                        </div>
+                        <div>
+                            <dt data-i18n="hero.elsewhere">Elsewhere</dt>
+                            <dd><a href="https://github.com/erfanhoo14-ux" target="_blank" rel="noopener">GitHub</a> · <a href="https://t.me/EL7Rh" target="_blank" rel="noopener">Telegram</a> · 
+                        </div>
+                    </dl>
+                </div>
+                <div class="stack rv" id="stack" aria-hidden="true">
+                    <div class="pcard p-back" data-depth="18">
+                        <p class="pk" data-i18n="c1k">Game — in progress</p>
+                        <p class="pt">SOUND HUNTER</p>
+                        <div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                        <p class="ps" data-i18n="c1s">enemies hear you · UE5</p>
+                    </div>
+                    <div class="pcard p-mid" data-depth="38">
+                        <div class="browser"><i></i><i></i><i></i><span>erfan — folio</span></div>
+                        <p class="pt serif" data-i18n="c2t">سایت دوزبانه، راست‌چین واقعی</p>
+                        <p class="ps" data-i18n="c2s">FA / EN · RTL · static · fast</p>
+                    </div>
+                    <div class="pcard p-front" data-depth="60">
+                        <p class="pk hot" data-i18n="c3k">★ available — one slot</p>
+                        <p class="pt serif" data-i18n="c3t">Your site here?</p>
+                        <p class="ps" data-i18n="c3s">landing · portfolio · shop — 1–3 weeks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="marquee" aria-hidden="true"><div class="mtrack" id="mtrack">
+            <span data-i18n="mq">HORROR GAMES ✳ WEB DESIGN ✳ UNREAL ENGINE 5 ✳ FA/EN + REAL RTL ✳ NO TEMPLATES ✳ FAST &amp; HAND-CODED ✳&nbsp;</span><span data-i18n="mq">HORROR GAMES ✳ WEB DESIGN ✳ UNREAL ENGINE 5 ✳ FA/EN + REAL RTL ✳ NO TEMPLATES ✳ FAST &amp; HAND-CODED ✳&nbsp;</span>
+        </div></div>
+
+        <section class="work" id="work">
+            <div class="sec-head rv">
+                <p class="snum" data-i18n="work.k">01 — Selected work</p>
+                <h2 data-i18n="work.title">Five builds, web first.</h2>
+                <p data-i18n="work.sub">You're probably here for a website — so that's project one. Then the games. Each opens into notes: what I tried, what broke, where it stands.</p>
+            </div>
+            <div id="rows"></div>
+        </section>
+
+        <section class="svc" id="services">
+            <div class="sec-head rv">
+                <p class="snum" data-i18n="svc.k">02 — Services</p>
+                <h2 data-i18n="svc.title">Hire me for this.</h2>
+                <p data-i18n="svc.sub">Scroll — the cards stack. Websites are the main act; games and automation come along.</p>
+            </div>
+            <div class="deck">
+                <article class="dcard d-web rv">
+                    <p class="dk" data-i18n="svc.b.k">Web design — the main act</p>
+                    <h3 data-i18n="svc.b.t">Websites, designed &amp; built by me</h3>
+                    <p data-i18n="svc.b.d">Landing pages, portfolios, small shops. Bilingual Persian/English with proper RTL — not a mirrored afterthought. Hand-coded, static, fast, with SEO basics covered.</p>
+                    <ul>
+                        <li data-i18n="svc.b.l1">FA/EN + real RTL layout</li>
+                        <li data-i18n="svc.b.l2">1–3 weeks, you watch it grow</li>
+                        <li data-i18n="svc.b.l3">You own everything — no lock-in</li>
+                    </ul>
+                    <p><a class="btn light" href="mailto:erfanhoo14@gmail.com?subject=Website%20project" data-i18n="svc.b.cta">Start a website →</a></p>
+                </article>
+                <article class="dcard d-game rv">
+                    <p class="dk" data-i18n="svc.a.k">Game dev</p>
+                    <h3 data-i18n="svc.a.t">Horror prototypes in UE5</h3>
+                    <p data-i18n="svc.a.d">Systems-first horror: sound-driven AI, stealth, small spaces. Vertical slices in weeks, not months.</p>
+                    <ul>
+                        <li data-i18n="svc.a.l1">Sound-driven AI &amp; stealth</li>
+                        <li data-i18n="svc.a.l2">Blueprint + C++ gameplay</li>
+                        <li data-i18n="svc.a.l3">Jam &amp; freelance friendly</li>
+                    </ul>
+                </article>
+                <article class="dcard d-auto rv">
+                    <p class="dk" data-i18n="svc.c.k">Automation</p>
+                    <h3 data-i18n="svc.c.t">Small AI tools that remove boring work</h3>
+                    <p data-i18n="svc.c.d">Prompt batches, renaming scripts, subtitle timing, deploy checklists. One file per job, documented.</p>
+                    <ul>
+                        <li data-i18n="svc.c.l1">Prompt test batches</li>
+                        <li data-i18n="svc.c.l2">Batch renaming &amp; subtitles</li>
+                        <li data-i18n="svc.c.l3">Deploy checklists</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="proc" id="process">
+            <div class="sec-head rv">
+                <p class="snum" data-i18n="proc.k">03 — How a website with me goes</p>
+                <h2 data-i18n="proc.title">Four steps, no mystery.</h2>
+            </div>
+            <ol class="steps">
+                <li class="rv"><span>01</span><h3 data-i18n="proc.s1t">Hello — 20 minutes</h3><p data-i18n="proc.s1d">A call or a long email. What you're selling, who it's for, three sites you like. I tell you honestly if I'm the wrong person.</p></li>
+                <li class="rv"><span>02</span><h3 data-i18n="proc.s2t">Sketch — days</h3><p data-i18n="proc.s2d">You get a homepage draft in a few days, in both languages if needed. We argue about it early, while changes are cheap.</p></li>
+                <li class="rv"><span>03</span><h3 data-i18n="proc.s3t">Build — 1–3 weeks</h3><p data-i18n="proc.s3d">Hand-coded, no page builder. You get a live link and watch it grow. Two revision rounds included.</p></li>
+                <li class="rv"><span>04</span><h3 data-i18n="proc.s4t">Launch + handover</h3><p data-i18n="proc.s4d">Deployed, measured, documented. You own the code and the domain. I stay a message away for a month, free.</p></li>
+            </ol>
+        </section>
+
+        <section class="log" id="log">
+            <div class="sec-head rv">
+                <p class="snum" data-i18n="log.k">04 — Build log</p>
+                <h2 data-i18n="log.title">Notes, dated.</h2>
+                <p data-i18n="log.sub">Updated when something actually happens — not on a schedule.</p>
+            </div>
+            <ol class="log-list" id="logList"></ol>
+        </section>
+
+        <section class="about" id="about">
+            <div class="sec-head rv">
+                <p class="snum" data-i18n="about.k">05 — About</p>
+                <h2 data-i18n="about.title">The short version.</h2>
+            </div>
+            <div class="about-grid">
+                <div class="rv">
+                    <p data-i18n="about.p1">I'm Erfan Hassanpur, from Iran. I make horror games in Unreal Engine 5 — and I design websites: landing pages, portfolios, small shops, in Persian and English.</p>
+                    <p data-i18n="about.p2">No studio, no publisher, no agency. Design, Blueprint, C++ when I must, audio, and this site — the fastest proof of the web half is that you're looking at it.</p>
+                    <p data-i18n="about.p3">Working alone sets the scope: small casts, systems over content, sound over spectacle. Same on the web: few pages, done right, loading instantly.</p>
+                </div>
+                <div class="rv">
+                    <h3 data-i18n="about.tools">Toolbox</h3>
+                    <p class="tools">Unreal Engine 5 · Blueprint · C++ · UMG · HTML / CSS / JS · RTL + i18n · Python · Linux · Netlify</p>
+                    <h3 data-i18n="about.rules">Rules I build by</h3>
+                    <ul class="rules">
+                        <li data-i18n="about.r1">Prototype in days, not months.</li>
+                        <li data-i18n="about.r2">Sound before visuals.</li>
+                        <li data-i18n="about.r3">If it needs a tutorial, it's too complicated.</li>
+                        <li data-i18n="about.r4">Ship small, shelve fast.</li>
+                    </ul>
+                    <h3 data-i18n="about.no">Not taking on</h3>
+                    <p class="muted" data-i18n="about.noV">Hyper-casual clones, crypto games, unpaid "exposure" work.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <p class="snum light rv" data-i18n="contact.tag">06 — Contact</p>
+            <h2 class="contact-h rv" data-i18n="contact.h">Game? Website? <em>Let's make it weird.</em></h2>
+            <p class="rv muted-narrow" data-i18n="contact.sub">Email is best. Say what you're making, the timeline, and the budget range. I reply in two or three days — a week max if I'm deep in a build. I always reply.</p>
+            <div class="contact-row rv">
+                <a class="btn solid" href="mailto:erfanhoo14@gmail.com" data-i18n="contact.email">erfanhoo14@gmail.com</a>
+                <button class="btn ghostl" id="copyMail" data-i18n="contact.copy">Copy address</button>
+            </div>
+            <div class="contact-row rv">
+                <a href="https://t.me/EL7Rh" target="_blank" rel="noopener" class="btn ghostl">Telegram</a>
+                <a href="https://github.com/erfanhoo14-ux" target="_blank" rel="noopener" class="btn ghostl">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <div class="foot-in">
+            <p>© <span id="year">2026</span> Erfan Hassanpur</p>
+            
+            <p><a href="#top" data-i18n="foot.top">Back to top ↑</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=5"></script>
+</body>
+</html>
