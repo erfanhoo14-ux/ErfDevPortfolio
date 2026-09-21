@@ -11,9 +11,6 @@ Personal portfolio for an independent horror game developer. Work index with bui
 
 Open `index.html`, or serve the folder (needed for the language toggle to persist via localStorage in some browsers):
 
-```bash
-python -m http.server 8099
-```
 
 ## Edit
 
