@@ -1,9 +1,9 @@
 /* Erfan Hassanpur — folio v2. Warm paper editorial. Fraunces / Space Grotesk / Vazirmatn / JetBrains Mono. */
 
 :root {
-    --paper: #F4EFE6;
+    --paper: #fff7e9;
     --card: #FBF8F1;
-    --ink: #191410;
+    --ink: #2f302c;
     --muted: #5C554A;
     --faint: #8A8172;
     --line: rgba(25, 20, 16, 0.16);
@@ -18,6 +18,13 @@
     --ease: cubic-bezier(0.22, 1, 0.36, 1);
     --w: 1120px;
 }
+
+.lalezar-regular {
+  font-family: "Lalezar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 html[dir="rtl"] { --font: var(--fa); }
 
@@ -51,13 +58,14 @@ button { font: inherit; color: inherit; background: none; border: none; }
     position: fixed; top: 0; left: 0; height: 3px; width: 100%; z-index: 150;
     background: var(--accent);
     transform-origin: left; transform: scaleX(0);
+    transition: all 0.6s ease;
 }
 html[dir="rtl"] .progress { transform-origin: right; }
 
 /* ---------- masthead ---------- */
 .head {
     position: sticky; top: 0; z-index: 100;
-    background: rgba(244, 239, 230, 0.9);
+    background: rgba(255, 224, 165, 0.664);
     backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
     border-bottom: 1.5px solid var(--ink);
 }
@@ -157,7 +165,7 @@ html[dir="rtl"] .hero-meta dt { letter-spacing: 0; }
 .pcard {
     grid-area: 1 / 1; padding: 24px 24px 20px; border-radius: 18px;
     background: var(--card); border: 1.5px solid var(--ink);
-    box-shadow: 8px 8px 0 rgba(25, 20, 16, 0.9);
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.76);
     transform: rotate(var(--rot, 0deg));
     transform-style: preserve-3d; will-change: transform;
 }
